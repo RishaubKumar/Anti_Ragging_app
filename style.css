@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(13, 13, 30);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.left {
+    font-size: 40px;
+    color: yellow;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.leftSection {
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.aboutp {
+    font-size: 1.2rem;
+}
+
+.rightSection {
+    
+    width: 40%;
+}
+
+.call {
+    text-align: center;
+}
+
+.favorite {
+
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    margin-right: 150px;
+}
+
+.favorite:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.favorite:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: rgb(61, 52, 70);
+    color: white;
+}
+
+.about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(241, 47, 47);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+
+}
+
+ .card img {
+    height: 200px;
+    width: 250px;
+    background-color: pink;
+
+}
+
+.card #img2 {
+    background-color: rgb(58, 210, 221);
+}
+
+h4 p {
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 10px black;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #eb2525;
+    color: #fff;
+}
+
+article {}
